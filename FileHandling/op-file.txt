@@ -1,0 +1,5 @@
+Hello! World!
+Good morning!
+I hope you have a nice day!
+Good night!
+Goodbye!
