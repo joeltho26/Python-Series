@@ -1,0 +1,5 @@
+__main__-2024-01-17 21:14:54,256-The error is Traceback (most recent call last):
+  File "/Users/joeljoseph26/Documents/Education/Back-End/Python/Python-Series/Python-Series/Logging/Logging_traceback_zipfile.py", line 21, in <module>
+    a = 10/0
+ZeroDivisionError: division by zero
+

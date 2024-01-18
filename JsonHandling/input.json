@@ -1,0 +1,6 @@
+{
+    "name": "John", 
+    "sex": "Male", 
+    "age": 25, 
+    "isAdult": false
+}
