@@ -1,0 +1,10 @@
+tup = tuple([10,20,30,40,10])
+tup_new = (10,20,30,40)
+print(tup)
+print(tup_new)
+one,*two,three = tup
+print(one,two,three)
+print(tup_new[0])
+print(len(tup_new))
+print(tup_new.index(30))
+print(tup.count(10))
