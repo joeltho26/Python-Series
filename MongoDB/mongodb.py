@@ -1,3 +1,4 @@
+#Check the env for MongoDB and use the correct one for it to work
 from pymongo.mongo_client import MongoClient
 
 uri = "mongodb+srv://joeljoseph26:Windows8Olya@clustertestjoel.df6afsx.mongodb.net/"
