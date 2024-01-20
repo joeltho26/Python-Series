@@ -5,7 +5,7 @@ my_db = pymysql.connect(host='localhost',user='root', port=3306,password='Window
 my_cursor = my_db.cursor()
 
 # CREATE DATABASE
-mycursor.execute("CREATE DATABASE mydatabase")
+my_cursor.execute("CREATE DATABASE mydatabase")
 
 # SHOW DATABASE
 my_cursor.execute("SHOW DATABASES")
@@ -13,7 +13,7 @@ for i in my_cursor:
     print(i)
 
 # CREATE TABLE
-mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
+my_cursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
 
 # SHOW TABLE
 my_cursor.execute("SHOW TABLES")
