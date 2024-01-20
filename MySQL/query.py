@@ -57,27 +57,27 @@ print("last record inserted, ID:", my_cursor.lastrowid)
 my_cursor.execute("SELECT * FROM customers")
 myresult = my_cursor.fetchall()
 for x in myresult:
-  print(x)
+    print(x)
 
 # SELECT ONE RECORDS
 my_cursor.execute("SELECT * FROM customers")
 myresult = my_cursor.fetchone()
 for x in myresult:
-  print(x)
+    print(x)
 
 # FILTER RECORD AND WILDCARD
 sql = "SELECT * FROM customers WHERE address LIKE '%way%'"
 my_cursor.execute(sql)
 myresult = my_cursor.fetchall()
 for x in myresult:
-  print(x)
+    print(x)
   
 # ORDER RECORDS  
 sql = "SELECT * FROM customers ORDER BY name DESC"
 my_cursor.execute(sql)
 myresult = my_cursor.fetchall()
 for x in myresult:
-  print(x)
+    print(x)
 
 # DELETE RECORDS
 sql = "DELETE FROM customers WHERE address = 'Mountain 21'"
@@ -99,7 +99,7 @@ print(my_cursor.rowcount, "record(s) affected")
 my_cursor.execute("SELECT * FROM customers LIMIT 5 OFFSET 2")
 myresult = my_cursor.fetchall()
 for x in myresult:
-  print(x)
+    print(x)
 
 #JOIN TABLE
 sql = "SELECT \
@@ -111,4 +111,4 @@ sql = "SELECT \
 my_cursor.execute(sql)
 myresult = my_cursor.fetchall()
 for x in myresult:
-  print(x)
+    print(x)
