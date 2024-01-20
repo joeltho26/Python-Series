@@ -1,7 +1,6 @@
-import mysql
-
+import mysql.connector
 # my_db = mysql.connector.connect(
-#     host="http://localhost:8891/notebooks/Documents/Education"
+#     host="http://localhost:8891/notebooks/Documents/Education",
 #     password="abc",
 #     port=80,
 #     user="username")
