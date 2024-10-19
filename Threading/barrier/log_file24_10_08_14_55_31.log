@@ -1,0 +1,14 @@
+2024-10-08 14:55:31,707 [INFO] Thread 0 finished execution with value 1.
+2024-10-08 14:55:31,712 [INFO] Main thread wait for other threads to complete...
+2024-10-08 14:55:32,711 [INFO] Thread 1 finished execution with value 2.
+2024-10-08 14:55:34,714 [INFO] Thread 2 finished execution with value 3.
+2024-10-08 14:55:37,715 [INFO] Thread 3 finished execution with value 4.
+2024-10-08 14:55:41,717 [INFO] Thread 4 finished execution with value 5.
+2024-10-08 14:55:46,721 [INFO] Thread 5 finished execution with value 6.
+2024-10-08 14:55:52,725 [INFO] Thread 6 finished execution with value 7.
+2024-10-08 14:55:59,730 [INFO] Thread 7 finished execution with value 8.
+2024-10-08 14:56:07,734 [INFO] Thread 8 finished execution with value 9.
+2024-10-08 14:56:16,736 [INFO] Thread 9 finished execution with value 10.
+2024-10-08 14:56:16,744 [INFO] Threads completed execution!
+2024-10-08 14:56:16,746 [INFO] Time taken: {-45.04007291793823}
+2024-10-08 14:56:16,747 [INFO] All threads have got their result.

@@ -1,0 +1,10 @@
+Thread:
+- used for io bound operations
+- starting thread is faster than process
+- all threads shares the same memory
+- not interruptable/killable
+- careful with race condition
+- Thread is limited by GIL, only one thread at a time
+
+Daemon thread:
+https://stackoverflow.com/questions/190010/daemon-threads-explanation

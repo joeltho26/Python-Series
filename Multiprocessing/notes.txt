@@ -1,0 +1,8 @@
+Process:
+- Memory is not shared with other process
+- Best for CPU bound processing
+- can be interrupted and killed
+- One GIL (Global interpreter lock) for each process
+
+
+

@@ -1,0 +1,32 @@
+## Commonly used option:
+
+- BeautifulSoup()
+    - html5lib/html.parser
+- prettify()
+- navigation:
+    - html.head, body.a, head.title, etc
+- descendants
+- parent
+- find()
+- find_all()
+    - attrs
+- next_sibling/next_siblings
+- prev_sibling/prev_siblings
+- strings
+- contents
+- name
+- has_attr
+- text
+- tag
+- getText
+- attrs 
+- new_tag
+- insert_after
+- insert_before
+- new_string
+- wrap
+- unwrap
+- decompose
+- append
+- replace_with
+- clear

@@ -1,0 +1,18 @@
+## Option commonly used:
+    - argparse
+    - ArgumentParser
+        - description
+    - add_argument
+        - type
+        - metavar
+        - nargs
+        - help
+        - "--files"
+        - dest
+        - const
+        - default
+        - choices
+        - required
+        - action
+        - "integers"
+    - parse_args
